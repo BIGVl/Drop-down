@@ -1,16 +1,24 @@
 {
-  "name": "drop-down",
+  "name": "drop-down-noob",
   "version": "1.0.0",
-  "description": "",
+  "description": "A drop-down menu that can be used almost anywhere ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BIGVl/Drop-down.git"
+  },
+  "keywords": [
+    "drop-down",
+    "dropdown",
+    "menu"
+  ],
   "author": "Vlasa Andrei",
   "license": "ISC",
-  "devDependencies": {
-    "webpack": "^5.66.0",
-    "webpack-cli": "^4.9.1"
-  }
+  "bugs": {
+    "url": "https://github.com/BIGVl/Drop-down/issues"
+  },
+  "homepage": "https://github.com/BIGVl/Drop-down#readme"
 }
