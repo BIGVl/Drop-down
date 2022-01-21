@@ -1,0 +1,20 @@
+nav {
+  width: 50%;
+  height: 3rem;
+  background-color: gray;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 300ms ease 0;
+}
+
+ul.visible {
+  opacity: 1;
+  pointer-events: all;
+  background-color: yellow;
+}
